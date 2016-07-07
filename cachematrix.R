@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These objective of these functions is to show how caching can help save time
 
-## Write a short comment describing this function
+## This function gets the inverse of a matrix and keeps it in cache
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function shows how the cached value of the previous result is used 
+## when there is no change to the previous input
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
